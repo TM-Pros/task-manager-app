@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "brace-style": [2, "stroustrup", {"allowSingleLine": true}],
+    "indent": ["error", 2],
+    "semi": "error"
+  }
 }
