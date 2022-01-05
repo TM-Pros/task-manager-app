@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.drawer-open {
+	padding-top: 80px;
+	padding-left: 330px;
+}
+.drawer-open .topmenu {
+	left: 300px;
+}
+
+.drawer-open .leftmenu {
+	width: 300px;
+}
